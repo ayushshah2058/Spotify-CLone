@@ -7,6 +7,37 @@ body{
      background-color: #000;
      color: #ffffff;
      overflow: hidden;
-     align-content: end;
-     /* text-align: center; */
+     
+}
+.main{
+     display:flex;
+     height: 100vh;
+}
+.header{
+     background-color: pink;
+     width: 100%;
+     height: 72px;
+     position: fixed;
+     top:0%;
+
+}
+.sidebar{
+     background-color: #121212;
+     width: 340px;
+     border-radius: 1rem;
+     margin-top: 72px;
+}
+.main-content{
+     background-color: #121212;
+     flex: 1;
+     border-radius: 1rem;
+     overflow: auto;
+     margin-top: 72px;
+}
+.music-player{
+     background-color: black;
+     position: fixed;
+     bottom: 0px;
+     width: 100%;
+     height: 72px;
 }
