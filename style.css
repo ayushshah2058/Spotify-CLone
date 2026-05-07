@@ -13,13 +13,18 @@ body{
      display:flex;
      height: 100vh;
 }
-.header{
-     background-color: pink;
+.navbar{
+     background-color: black;
      width: 100%;
      height: 72px;
      position: fixed;
      top:0%;
-
+     display: flex;
+     height: 56px;
+     width: 100%;
+     color: white ;
+     justify-content: space-between;
+     align-items: center;
 }
 .sidebar{
      background-color: #121212;
@@ -40,4 +45,49 @@ body{
      bottom: 0px;
      width: 100%;
      height: 72px;
+}
+.nav-options{
+     background-color: black;
+     border-radius: 1rem;
+     
+}
+.search-bar{
+     display: flex;
+}
+.home-logo{
+     background-color: #121212;
+     border-radius: 50%;
+}
+
+.search{
+     background-color: #121212;
+     border-radius: 1rem;
+     height: 2rem;
+     width: 300px;
+     display: flex;
+     justify-content: start;
+     align-items: center;
+     margin: 5px;
+}
+input .search-area{
+     border: 1px solid white;
+     background-color: transparent;
+     color: white;
+     border-radius: 1rem;
+     height: 40px;
+     width:fit-content;
+}
+.install-app{
+     background-color: #121212;
+     border-radius: 1rem;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     height: 2rem;
+     width: 300px;
+}
+i{
+     font-size: 1.5rem;
+     margin: 5px;
+     padding: 5px;
 }
