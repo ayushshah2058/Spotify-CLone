@@ -12,6 +12,7 @@ body{
 .main{
      display:flex;
      height: 100vh;
+     padding: 0.5rem;
 }
 .navbar{
      background-color: black;
@@ -94,7 +95,7 @@ i{
 a{
      text-decoration: none;
      color: white;
-     font-size: 1.25rem ;
+     font-size: 1rem ;
 }
 .library{
      background-color:#121212;
@@ -106,6 +107,7 @@ a{
      justify-content: space-between;
      align-items: center;
      padding: 0.5rem 0.75rem;
+     
      
 }
 .icons button{
@@ -140,11 +142,54 @@ a{
      display: flex;
      justify-content: space-between;
      align-items: center;
+     font-size: 14px;
+     opacity: 0.7;
 }
 .playlist-search i{
      background-color: transparent;
+     padding: 0;
 
 }
-
-
+.playlist-search:hover{
+     opacity: 1;
+}
+.playlist-options{
+     overflow: scroll;
+     scrollbar-width: 1px;
+     scroll-behavior: smooth;
+     scrollbar-color: #121212;
+     margin: 0.7rem 0.5rem;
+     height: 100vh;
+}
+.playlist-songs{
+     display: flex;
+     flex-direction: column;
+}
+.songs{
+     height:50px;
+     width: 100%;
+     font-size: 1rem;
+     display: flex;
+     padding: 0.25rem;
+     padding: 0;
+     line-height: 0;
+     align-items: center;
+}
+.songs img{
+     height: 15px;
+     font-weight: 15px;
+}
+.songs h4{
+     font-size: 14px;
+     font-weight: 500;
+     margin-left: 0.7rem;
+}
+.songs h5{
+     font-size: 12px;
+     font-weight: 300;
+     margin-left: 0.7rem;
+}
+.songs:hover{
+     background-color: #2b2b2b;
+     
 }
