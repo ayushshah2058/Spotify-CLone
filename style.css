@@ -247,3 +247,14 @@ a{
      -webkit-box-orient: vertical;
      overflow: hidden;
 }
+.footer{
+     height: 200px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.line{
+     width: 90%;
+     height: 50%;
+     border-top: 1px solid white;
+}
