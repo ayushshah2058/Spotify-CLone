@@ -283,7 +283,10 @@ a{
 .music-controls{
      width: 25%;
      height: 100%;
-     background-color: violet;
+     display: flex;
+     align-items: center;
+     justify-content: flex-end;
+     margin-right: 2rem;
 }
 .music-poster img{
      width: 40px;
@@ -310,3 +313,38 @@ a{
      font-weight: bold;
      font-size: 1.15rem;
 }
+.control-icon i{
+     background-color: transparent;
+     padding: 0;
+     margin: 0;
+     color: white;
+     padding: 0.1rem;
+     font-size: 0.8 rem;
+     opacity: 0.7;
+}
+.control-icon i:hover{
+     opacity: 1;
+}
+.volume{
+     display: flex;
+}
+.volume input{
+     
+     appearance: none;
+     background-color: transparent;
+     width: 75px;
+     cursor: pointer;
+}
+.volume input::-webkit-slider-runnable-track{
+     background-color: #ddd;
+     height: 0.3rem;
+     border-radius: 100px;
+
+}
+.volume input::-webkit-slider-thumb{
+     appearance: none;
+     height: 1rem;
+     width: 1rem;
+     border-radius: 50%;
+     background-color: #1bd760;
+     margin-top: -6px;
