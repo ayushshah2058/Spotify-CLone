@@ -41,10 +41,10 @@ body{
 }
 .music-player{
      background-color: black;
-     position: fixedd;
+     position: fixed;
      bottom: 0px;
      width: 100%;
-     height: 72px;
+     height: 56px;
 }
 .nav-options{
      background-color: black;
@@ -257,4 +257,56 @@ a{
      width: 90%;
      height: 50%;
      border-top: 1px solid white;
+}
+
+/* music player */
+.music-playing{
+     padding: 0.5rem;
+     display: flex;
+     width: 100%;
+     height: 100%;
+}
+.song-playing{
+     width: 25%;
+     height: 100%;
+     background-color: black;
+     display: flex;
+     align-items: center;
+     padding-left: 0.5rem;
+     margin-bottom: 0.5rem;
+}
+.play-function{
+     width: 50%;
+     height: 100%;
+     background-color: chartreuse;
+}
+.music-controls{
+     width: 25%;
+     height: 100%;
+     background-color: violet;
+}
+.music-poster img{
+     width: 40px;
+     height: 40px;
+}
+.music-name{
+     color: white;
+     line-height: 0;
+     margin-left: 1rem;
+}
+.music-name h3{
+     font-size: 14px;
+     font-weight: 600;
+}
+.music-name h5{
+     font-size: 12px;
+     font-weight: 400;
+     opacity: 0.8;
+}
+.music-logo i{
+     background-color: transparent;
+     margin-left: 1rem;
+     color: white;
+     font-weight: bold;
+     font-size: 1.15rem;
 }
